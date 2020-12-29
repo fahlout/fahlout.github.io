@@ -18,7 +18,7 @@ function AppCard({ name, clientName, appIcon, description, color, appStoreLink }
                         <a href={appStoreLink} style={{ display: "inline-block", overflow: "hidden", borderRadius: "13px", width: "250px", height: "83px" }}><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-US?size=250x83&amp;releaseDate=1478736000&h=0f8079ec163dcb13b25e500e85655996" alt="Download on the App Store" style={{ borderRadius: "13px", width: "250px", height: "83px" }}></img></a>
                     </div>
                 </div>
-                <div className="hidden md:inline lg:hidden">
+                <div className="hidden sm:inline lg:hidden">
                     <div className="hidden dark:inline">
                         <a href={appStoreLink} style={{ display: "inline-block", overflow: "hidden", borderRadius: "13px", width: "200px", height: "66.4px" }}><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1478736000&h=0f8079ec163dcb13b25e500e85655996" alt="Download on the App Store" style={{ borderRadius: "13px", width: "200px", height: "66.4px" }}></img></a>
                     </div>
@@ -26,7 +26,7 @@ function AppCard({ name, clientName, appIcon, description, color, appStoreLink }
                         <a href={appStoreLink} style={{ display: "inline-block", overflow: "hidden", borderRadius: "13px", width: "200px", height: "66.4px" }}><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-US?size=250x83&amp;releaseDate=1478736000&h=0f8079ec163dcb13b25e500e85655996" alt="Download on the App Store" style={{ borderRadius: "13px", width: "200px", height: "66.4px" }}></img></a>
                     </div>
                 </div>
-                <div className="inline md:hidden">
+                <div className="inline sm:hidden">
                     <div className="hidden dark:inline">
                         <a href={appStoreLink} style={{ display: "inline-block", overflow: "hidden", borderRadius: "7.8px", width: "150px", height: "49.8px" }}><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1478736000&h=0f8079ec163dcb13b25e500e85655996" alt="Download on the App Store" style={{ borderRadius: "7.8px", width: "150px", height: "49.8px" }}></img></a>
                     </div>
