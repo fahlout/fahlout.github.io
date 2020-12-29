@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b95569c2.chunk.css",
-    "main.js": "/static/js/main.e5b6f1c5.chunk.js",
-    "main.js.map": "/static/js/main.e5b6f1c5.chunk.js.map",
+    "main.js": "/static/js/main.bd51b89a.chunk.js",
+    "main.js.map": "/static/js/main.bd51b89a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9029e8aa.js",
     "runtime-main.js.map": "/static/js/runtime-main.9029e8aa.js.map",
     "static/js/2.30ef5ed0.chunk.js": "/static/js/2.30ef5ed0.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/index.html",
     "static/css/main.b95569c2.chunk.css.map": "/static/css/main.b95569c2.chunk.css.map",
     "static/js/2.30ef5ed0.chunk.js.LICENSE.txt": "/static/js/2.30ef5ed0.chunk.js.LICENSE.txt",
-    "static/media/nik-fahl-vector.90b05960.svg": "/static/media/nik-fahl-vector.90b05960.svg"
+    "static/media/nik-fahl-vector.3700a4ac.svg": "/static/media/nik-fahl-vector.3700a4ac.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9029e8aa.js",
     "static/js/2.30ef5ed0.chunk.js",
     "static/css/main.b95569c2.chunk.css",
-    "static/js/main.e5b6f1c5.chunk.js"
+    "static/js/main.bd51b89a.chunk.js"
   ]
 }
