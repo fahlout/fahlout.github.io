@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .divider {
-    @apply border-b border-gray-200 dark:border-gray-600 mx-auto md:max-w-sm md:w-auto w-1/2 md:my-36 sm:my-24 my-20;
+    @apply border-b border-gray-100 dark:border-gray-600 mx-auto md:max-w-sm md:w-auto w-1/2 md:my-36 sm:my-24 my-20;
 }
 
 .green-button-lg {
@@ -11,9 +11,13 @@
 }
 
 .subtext {
-    @apply max-w-3xl mx-auto text-lg sm:text-2xl text-center font-medium sm:leading-10 space-y-6 text-gray-500 dark:text-gray-400;
+    @apply max-w-3xl mx-auto text-lg sm:text-2xl text-center font-normal sm:leading-10 space-y-6 text-gray-700 dark:text-gray-600;
 }
 
 .section-title {
-    @apply text-3xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold text-gray-900 dark:text-gray-100 tracking-tight mb-8;
+    @apply text-3xl sm:text-5xl lg:text-6xl text-center leading-none font-extrabold text-black dark:text-gray-100 tracking-tight mb-8;
+}
+
+.section-subtitle {
+    @apply sm:text-lg sm:leading-snug font-semibold text-center tracking-wide uppercase text-green-500 mb-3;
 }
