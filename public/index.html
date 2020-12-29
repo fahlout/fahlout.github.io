@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+  .automatic-bg-color {
+    background-color: white;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .automatic-bg-color {
+      background-color: black;
+    }
+  }
+</style>
+
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -34,7 +46,7 @@
   <title>Nik Fahl</title>
 </head>
 
-<body>
+<body class="automatic-bg-color">
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>

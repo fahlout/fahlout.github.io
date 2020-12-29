@@ -4,7 +4,7 @@ import Hero from './Hero';
 
 function App() {
   return (
-    <div className="px-4 sm:px-6 md:px-8 pt-10">
+    <div className="px-4 sm:px-6 md:px-8 pt-10 bg-white dark:bg-black">
       <Hero />
     </div>
     // <div class="px-4 sm:px-6 md:px-8">
