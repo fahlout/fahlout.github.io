@@ -20,7 +20,7 @@ function Hero() {
                 <div className="flex justify-center pb-3">
                     <a className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 border-green-500 border-2 rounded-xl text-green-500 text-lg hover:bg-green-500 hover:text-white" href={process.env.PUBLIC_URL + '/documents/Niklas-Fahl-Resume.pdf'} target="_blank" rel="noopener noreferrer">Download my Resume</a>
                 </div>
-                <div className="border-b border-gray-200 mx-auto md:max-w-sm md:w-auto w-1/2 mb-10 sm:mb-16 md:mb-20 mt-10 sm:mt-16 md:mt-20"></div>
+                <div className="border-b border-gray-200 mx-auto md:max-w-sm md:w-auto w-1/2 mb-10 sm:mb-16 md:mb-20 mt-10 sm:mt-16 md:mt-20 pb-3"></div>
             </section>
         </div>
     );
