@@ -52,7 +52,7 @@ function App() {
     <div className="px-4 sm:px-6 md:px-8 pt-10 bg-white dark:bg-black">
       <Hero title={heroTitle} subtext={heroSubtext} image={heroImage} linkPath={heroLinkPath} linkTitle={heroLinkTitle} />
       <SectionHeader title={appSectionTitle} subtitle={appSectionSubtitle} subtext={appSectionSubtext} />
-      <div className="max-w-screen-2xl grid auto-rows-max grid-cols-1 xl:grid-cols-2 mx-auto md:mt-36 sm:mt-24 mt-20 py-2 gap-8">
+      <div className="max-w-screen-2xl grid auto-rows-max grid-cols-1 xl:grid-cols-2 mx-auto md:mt-36 sm:mt-24 mt-20 py-2 gap-8 md:gap-12 xl:gap-10">
         <AppCard name={app1Name} clientName={app1ClientName} appIcon={app1Icon} description={app1Description} color={app1Color} appStoreLink={app1Link} />
         <AppCard name={app2Name} clientName={app2ClientName} appIcon={app2Icon} description={app2Description} color={app2Color} appStoreLink={app2Link} />
         <AppCard name={app3Name} clientName={app3ClientName} appIcon={app3Icon} description={app3Description} color={app3Color} appStoreLink={app3Link} />
