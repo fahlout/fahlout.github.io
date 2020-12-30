@@ -23,7 +23,7 @@ function App() {
   const app1Name = "ALGO Traffic";
   const app1ClientName = "Alabama Department of Transportation"
   const app1Icon = App1Icon;
-  const app1Description = "This app provides users with live traffic updates such as accidents, road work, and other road hazards for state funded roads (i.e. Interstates, State Routes, US Routes) in Alabama. The app also features live camera feeds that lets the user monitor traffic in certain areas they may be traveling along. When traveling the user can engage driving mode, which provides traffic updates of what’s ahead while driving.";
+  const app1Description = "This app provides users with live traffic updates such as accidents, road work, and other road hazards for state funded roads (i.e. Interstates, State Routes, US Routes) in Alabama. The app also features live camera feeds that lets the user monitor traffic in certain areas they may be traveling. When traveling the user can engage driving mode, which provides traffic updates of what’s ahead while driving.";
   const app1Color = "#1E824C";
   const app1Link = "https://apps.apple.com/us/app/algo-traffic-by-aldot-alea/id1141136558?itsct=apps_box&itscg=30200";
 
