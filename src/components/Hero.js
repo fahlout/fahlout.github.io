@@ -11,7 +11,7 @@ function Hero({ title, subtext, image, linkPath, linkTitle }) {
                     <SectionHeader title={title} subtext={subtext} />
                 </div>
                 <div className="flex justify-center">
-                    <a className="green-button-lg" href={process.env.PUBLIC_URL + { linkPath }} target="_blank" rel="noopener noreferrer">{linkTitle}</a>
+                    <a className="green-button-lg" href={process.env.PUBLIC_URL + linkPath} target="_blank" rel="noopener noreferrer">{linkTitle}</a>
                 </div>
                 <div className="divider"></div>
             </section>
