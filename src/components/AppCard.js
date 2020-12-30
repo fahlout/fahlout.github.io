@@ -1,14 +1,34 @@
-function AppCard({ name, clientName, appIcon, description, color, appStoreLink }) {
-    return (
-        <div className="flex flex-col max-w-screen-md mx-auto rounded-3xl bg-gray-100 dark:bg-gray-1100 px-5 md:px-8 py-8 sm:py-14 md:py-16">
-            <div className="mb-8 sm:mb-14 md:mb-16 mr-auto">
-                <img className="w-16 sm:w-20 md:w-32 lg:w-36 h-16 sm:h-20 md:h-32 lg:h-36" src={appIcon} alt="App Icon"></img>
-            </div>
+function AppCard({ name, clientName, appIcon, description, color, appStoreLink, tags, screenshot }) {
+    let tagList;
 
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3 leading-none text-black dark:text-gray-100">{name}</h1>
-            <p className="text-sm sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase" style={{ color: color }}>{clientName}</p>
-            <p className="mb-8 sm:mb-14 md:mb-16 mt-8 text-md sm:text-xl font-normal leading-7 sm:leading-9 text-black dark:text-gray-100">{description}</p>
+    if (tags) {
+        tagList = tags.map((tag) => (
+            <div className="py-1 px-3 rounded-lg m-2 text-sm sm:text-lg" key={tag} style={{ backgroundColor: color + '1A', color: color }}>{tag}</div>
+        ))
+    }
+
+    let tagsContent;
+    if (tags) {
+        tagsContent = <div className="flex flex-wrap -mx-2 pt-1 mb-8 sm:mb-14 md:mb-16 text-gray-100 text-md sm:text-xl font-normal">{tagList}</div>;
+    }
+
+    return (
+        <div className="flex flex-col max-w-screen-md mx-auto rounded-3xl bg-gray-100 dark:bg-gray-1100 px-5 md:px-8 pb-8 sm:pb-14 md:pb-16 pt-10 sm:pt-16 md:pt-20">
+            <div className="mb-6 sm:mb-10 md:mb-8 mx-auto">
+                <a href={appStoreLink}><img className="w-16 sm:w-20 md:w-28 lg:w-36 h-16 sm:h-20 md:h-28 lg:h-36" src={appIcon} alt="App Icon"></img></a>
+            </div >
+
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center tracking-tight mb-3 leading-none text-black dark:text-gray-100">{name}</h1>
+            <p className="text-sm sm:text-lg sm:leading-snug text-center font-semibold tracking-wide uppercase" style={{ color: color }}>{clientName}</p>
+
+            <img className="w-52 sm:w-56 md:w-64 lg:w-72 mt-6 py-4 mx-auto" src={screenshot} alt="App Screenshot"></img>
+
+            <p className="my-6 text-md sm:text-xl font-normal leading-7 sm:leading-9 text-black dark:text-gray-100">{description}</p>
+
+            {tagsContent}
+
             <div className="flex-grow"></div>
+
             <div className="mx-auto">
                 <div className="hidden lg:inline">
                     <div className="hidden dark:inline">
