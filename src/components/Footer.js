@@ -13,7 +13,7 @@ function Footer() {
                 </a>
             </div>
             <div className="space-y-4 md:mb-36 sm:mb-24 mb-20">
-                <p className="text-center text-gray-700 dark:text-gray-600">Niklas Fahl © 2020</p>
+                <p className="text-center text-gray-700 dark:text-gray-600">Niklas Fahl © 2021</p>
                 <div className="text-center text-gray-700 dark:text-gray-600">
                     Icons made by <a className="text-green-500" href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a className="text-green-500" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
