@@ -2,7 +2,7 @@ function Footer() {
     return (
         <div>
             <div className="flex justify-center space-x-8 sm:space-x-10 md:space-x-14 md:mb-32 sm:mb:24 mb-20">
-                <a href="mailto:niklas.fahl@icloud.com">
+                <a href="mailto:contact@nikfahl.com">
                     <svg className="w-8 md:w-10 h-8 md:h-10 fill-current text-green-500 hover:text-green-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.5 4h-19c-1.378 0-2.5 1.122-2.5 2.5v11c0 1.378 1.122 2.5 2.5 2.5h19c1.378 0 2.5-1.122 2.5-2.5v-11c0-1.378-1.122-2.5-2.5-2.5zm.5 5.41-8.61 4.5c-.43.22-.91.34-1.39.34s-.95-.12-1.39-.34l-8.61-4.5v-2.26l9.53 4.98c.29.15.65.15.94 0l9.53-4.98z" /></svg>
                 </a>
                 <a href="http://github.nikfahl.com">
